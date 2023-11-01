@@ -30,9 +30,13 @@ struct FrameworkGridView: View {
         }
     }
 
+
+
 #Preview {
     FrameworkGridView().preferredColorScheme(.dark)
 }
+
+
 
 struct FrameworkSingleView: View {
     let framework: Framework

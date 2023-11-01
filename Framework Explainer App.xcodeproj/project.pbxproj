@@ -15,6 +15,8 @@
 		345198692AF0166B0055922C /* Framework_Explainer_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198682AF0166B0055922C /* Framework_Explainer_AppUITestsLaunchTests.swift */; };
 		345198762AF0271E0055922C /* Frameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198752AF0271E0055922C /* Frameworks.swift */; };
 		345198782AF028090055922C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198772AF028090055922C /* FrameworkGridView.swift */; };
+		3451987A2AF293130055922C /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198792AF293130055922C /* FrameworkDetailView.swift */; };
+		3451987C2AF298280055922C /* FrameworksButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451987B2AF298280055922C /* FrameworksButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		345198682AF0166B0055922C /* Framework_Explainer_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_Explainer_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		345198752AF0271E0055922C /* Frameworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frameworks.swift; sourceTree = "<group>"; };
 		345198772AF028090055922C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		345198792AF293130055922C /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		3451987B2AF298280055922C /* FrameworksButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +102,11 @@
 			children = (
 				3451984B2AF016690055922C /* Framework_Explainer_AppApp.swift */,
 				345198772AF028090055922C /* FrameworkGridView.swift */,
+				345198792AF293130055922C /* FrameworkDetailView.swift */,
 				345198752AF0271E0055922C /* Frameworks.swift */,
 				3451984F2AF0166B0055922C /* Assets.xcassets */,
 				345198512AF0166B0055922C /* Preview Content */,
+				3451987B2AF298280055922C /* FrameworksButton.swift */,
 			);
 			path = "Framework Explainer App";
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3451987A2AF293130055922C /* FrameworkDetailView.swift in Sources */,
+				3451987C2AF298280055922C /* FrameworksButton.swift in Sources */,
 				345198782AF028090055922C /* FrameworkGridView.swift in Sources */,
 				3451984C2AF016690055922C /* Framework_Explainer_AppApp.swift in Sources */,
 				345198762AF0271E0055922C /* Frameworks.swift in Sources */,
