@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3451984C2AF016690055922C /* Framework_Explainer_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451984B2AF016690055922C /* Framework_Explainer_AppApp.swift */; };
+		340461F72AF2B8BD00C7D9AD /* Framework Explainer AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340461F62AF2B8BD00C7D9AD /* Framework Explainer AppApp.swift */; };
+		340461F92AF2B8F400C7D9AD /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340461F82AF2B8F300C7D9AD /* FrameworkGridView.swift */; };
 		345198502AF0166B0055922C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3451984F2AF0166B0055922C /* Assets.xcassets */; };
 		345198532AF0166B0055922C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345198522AF0166B0055922C /* Preview Assets.xcassets */; };
 		3451985D2AF0166B0055922C /* Framework_Explainer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451985C2AF0166B0055922C /* Framework_Explainer_AppTests.swift */; };
 		345198672AF0166B0055922C /* Framework_Explainer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198662AF0166B0055922C /* Framework_Explainer_AppUITests.swift */; };
 		345198692AF0166B0055922C /* Framework_Explainer_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198682AF0166B0055922C /* Framework_Explainer_AppUITestsLaunchTests.swift */; };
 		345198762AF0271E0055922C /* Frameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198752AF0271E0055922C /* Frameworks.swift */; };
-		345198782AF028090055922C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198772AF028090055922C /* FrameworkGridView.swift */; };
 		3451987A2AF293130055922C /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345198792AF293130055922C /* FrameworkDetailView.swift */; };
 		3451987C2AF298280055922C /* FrameworksButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451987B2AF298280055922C /* FrameworksButton.swift */; };
+		3451987E2AF2A29D0055922C /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451987D2AF2A29D0055922C /* FrameworkGridViewModel.swift */; };
+		34A19EE62AF2B64200225F77 /* FrameworkSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451987F2AF2AF5D0055922C /* FrameworkSingleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		340461F62AF2B8BD00C7D9AD /* Framework Explainer AppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Framework Explainer AppApp.swift"; path = "Framework Explainer App/Framework Explainer AppApp.swift"; sourceTree = "<group>"; };
+		340461F82AF2B8F300C7D9AD /* FrameworkGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		345198482AF016690055922C /* Framework Explainer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Framework Explainer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3451984B2AF016690055922C /* Framework_Explainer_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_Explainer_AppApp.swift; sourceTree = "<group>"; };
 		3451984F2AF0166B0055922C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		345198522AF0166B0055922C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		345198582AF0166B0055922C /* Framework Explainer AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Framework Explainer AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,9 +50,10 @@
 		345198662AF0166B0055922C /* Framework_Explainer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_Explainer_AppUITests.swift; sourceTree = "<group>"; };
 		345198682AF0166B0055922C /* Framework_Explainer_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_Explainer_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		345198752AF0271E0055922C /* Frameworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frameworks.swift; sourceTree = "<group>"; };
-		345198772AF028090055922C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		345198792AF293130055922C /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		3451987B2AF298280055922C /* FrameworksButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksButton.swift; sourceTree = "<group>"; };
+		3451987D2AF2A29D0055922C /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		3451987F2AF2AF5D0055922C /* FrameworkSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkSingleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		3451983F2AF016690055922C = {
 			isa = PBXGroup;
 			children = (
+				340461F62AF2B8BD00C7D9AD /* Framework Explainer AppApp.swift */,
 				3451984A2AF016690055922C /* Framework Explainer App */,
 				3451985B2AF0166B0055922C /* Framework Explainer AppTests */,
 				345198652AF0166B0055922C /* Framework Explainer AppUITests */,
@@ -100,16 +105,15 @@
 		3451984A2AF016690055922C /* Framework Explainer App */ = {
 			isa = PBXGroup;
 			children = (
-				3451984B2AF016690055922C /* Framework_Explainer_AppApp.swift */,
-				345198772AF028090055922C /* FrameworkGridView.swift */,
-				345198792AF293130055922C /* FrameworkDetailView.swift */,
-				345198752AF0271E0055922C /* Frameworks.swift */,
-				3451984F2AF0166B0055922C /* Assets.xcassets */,
 				345198512AF0166B0055922C /* Preview Content */,
-				3451987B2AF298280055922C /* FrameworksButton.swift */,
+				3451984F2AF0166B0055922C /* Assets.xcassets */,
+				346ED3102AF2B47C00ED650C /* Screens */,
+				346ED3142AF2B4EC00ED650C /* Views */,
+				346ED3112AF2B48900ED650C /* Models */,
 			);
 			path = "Framework Explainer App";
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		345198512AF0166B0055922C /* Preview Content */ = {
 			isa = PBXGroup;
@@ -134,6 +138,65 @@
 				345198682AF0166B0055922C /* Framework_Explainer_AppUITestsLaunchTests.swift */,
 			);
 			path = "Framework Explainer AppUITests";
+			sourceTree = "<group>";
+		};
+		346ED3102AF2B47C00ED650C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				346ED3132AF2B49F00ED650C /* GridView */,
+				346ED3122AF2B49C00ED650C /* DetailedView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		346ED3112AF2B48900ED650C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				345198752AF0271E0055922C /* Frameworks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		346ED3122AF2B49C00ED650C /* DetailedView */ = {
+			isa = PBXGroup;
+			children = (
+				345198792AF293130055922C /* FrameworkDetailView.swift */,
+			);
+			path = DetailedView;
+			sourceTree = "<group>";
+		};
+		346ED3132AF2B49F00ED650C /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				340461F82AF2B8F300C7D9AD /* FrameworkGridView.swift */,
+				3451987D2AF2A29D0055922C /* FrameworkGridViewModel.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		346ED3142AF2B4EC00ED650C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				346ED3162AF2B4FC00ED650C /* Views */,
+				346ED3152AF2B4F600ED650C /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		346ED3152AF2B4F600ED650C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				3451987B2AF298280055922C /* FrameworksButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		346ED3162AF2B4FC00ED650C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3451987F2AF2AF5D0055922C /* FrameworkSingleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +331,11 @@
 			files = (
 				3451987A2AF293130055922C /* FrameworkDetailView.swift in Sources */,
 				3451987C2AF298280055922C /* FrameworksButton.swift in Sources */,
-				345198782AF028090055922C /* FrameworkGridView.swift in Sources */,
-				3451984C2AF016690055922C /* Framework_Explainer_AppApp.swift in Sources */,
+				340461F72AF2B8BD00C7D9AD /* Framework Explainer AppApp.swift in Sources */,
 				345198762AF0271E0055922C /* Frameworks.swift in Sources */,
+				3451987E2AF2A29D0055922C /* FrameworkGridViewModel.swift in Sources */,
+				34A19EE62AF2B64200225F77 /* FrameworkSingleView.swift in Sources */,
+				340461F92AF2B8F400C7D9AD /* FrameworkGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
